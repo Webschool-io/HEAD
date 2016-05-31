@@ -512,13 +512,13 @@ Example:
 
 ## Contribuindo
 
-Open an issue or a pull request to suggest changes or additions.
+Abra uma *issue* ou um *pull request* para sugerir alterações ou adições.
 
-Please follow these steps for pull requests:
-- Modify only one tag, or one related set of tags at a time
-- Use double quotes on attributes
-- Don't include a trailing slash in self-closing elements — the HTML5 spec says they're optional
-- Consider including a link to documentation that supports your change
+Por favor, siga estes passos para fazer o *pull request*:
+- Modificar apenas uma *tag*, ou um conjunto relacionado de *tags* de cada vez;
+- Use aspas duplas nos atributos;
+- Não inclua uma barra final em elementos de fecho automático - a especificação HTML5 diz que eles são opcionais. Exemplo: `<img ... >`;
+- Considerar a inclusão de um *link* para a documentação que suporte a sua mudança.
 
 ## Autor
 
