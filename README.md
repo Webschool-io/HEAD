@@ -508,7 +508,7 @@ Example:
 
 ## Projetos Relacionados
 
-- [head-it](https://github.com/hemanth/head-it) a simple interface to use `head`.
+- [head-it](https://github.com/hemanth/head-it) uma interface simples para usar `head`.
 
 ## Contribuindo
 
