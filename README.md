@@ -71,21 +71,21 @@ Abaixo estão as *tags* essenciais para, sites minimalistas básicos:
 <meta charset="utf-8">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<!-- As 3 meta tags acima *devem* vir em primeiro lugar na head; qualquer outro conteúdo na head deve vir *após* estas tags  -->
 
-<!-- Name of web application (only should be used if the website is used as an app) -->
+<!-- Nome de aplicação web (só deve ser usado se o site é usado como um app) -->
 <meta name="application-name" content="Application Name">
 
-<!-- Short 3 or 4 sentence description of website: included in search engine results -->
+<!-- Descrição curta do site com 3 ou 4 frases: incluída nos resultados do motor de busca -->
 <meta name="description" content="150 chars">
 
-<!-- Short description of your sites subject -->
+<!-- Breve descrição do assunto do seu site -->
 <meta name="subject" content="your website's subject">
 
-<!-- Controls what pages crawlers are allowed to index on your site -->
+<!-- Controle de que páginas são permitidas a serem indexedas pelos robôs de busca -->
 <meta name="robots" content="index,follow,noodp">
 
-<!-- Works the same as the robots meta tag, but exclusively for Google -->
+<!-- Mesmo esquema acima porém exclusivamente para o Google -->
 <meta name="googlebot" content="index,follow">
 
 <!-- Tells the Google search engine to not show the sitelinks search box -->
