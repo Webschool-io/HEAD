@@ -35,7 +35,7 @@ Uma lista de tudo que poderia ir na `<head>` do seu documento
 
 ## Mínimo Recomendado
 
-Below are the essential tags for basic, minimalist websites:
+Abaixo estão as *tags* essenciais para, sites minimalistas básicos:
 
 ```html
 <meta charset="utf-8">
@@ -47,16 +47,16 @@ Below are the essential tags for basic, minimalist websites:
 ## Elementos
 
 ``` html
-<!-- Document Title -->
-<title>Page Title</title>
+<!-- Título do documento -->
+<title>Título da página</title>
 
-<!-- Base URL to use for all relative URLs contained within the document -->
+<!-- URL base para todas as URLs relativas contidas no documento -->
 <base href="https://example.com/page.html">
 
-<!-- External CSS -->
+<!-- CSS externo -->
 <link rel="stylesheet" href="styles.css">
 
-<!-- In-document CSS -->
+<!-- CSS no documento -->
 <style>
   /* ... */
 </style>
