@@ -222,7 +222,7 @@ Below are the meta attributes which are not recommended for use:
 <link rel="prerender" href="https://example.com/">
 <link rel="subresource" href="styles.css">
 <link rel="preload" href="image.png">
-<!-- More info: https://css-tricks.com/prefetching-preloading-prebrowsing/ -->
+<!-- Mais informações: https://css-tricks.com/prefetching-preloading-prebrowsing/ -->
 ```
 
 ### Elementos Link: Não Recomendado
@@ -244,7 +244,7 @@ Below are the link relations which are not recommended for use:
 <link rel="icon" href="path/to/favicon-48.png" sizes="48x48" type="image/png">
 <link rel="icon" href="path/to/favicon-62.png" sizes="62x62" type="image/png">
 <link rel="icon" href="path/to/favicon-192.png" sizes="192x192" type="image/png">
-<!-- More info: https://bitsofco.de/all-about-favicons-and-touch-icons/ -->
+<!-- Mais informações: https://bitsofco.de/all-about-favicons-and-touch-icons/ -->
 ```
 
 - [All About Favicons (And Touch Icons)](https://bitsofco.de/all-about-favicons-and-touch-icons/)
@@ -296,7 +296,7 @@ Below are the link relations which are not recommended for use:
 <meta name="twitter:title" content="Content Title">
 <meta name="twitter:description" content="Content description less than 200 characters">
 <meta name="twitter:image" content="https://example.com/image.jpg">
-<!-- More info: https://dev.twitter.com/cards/getting-started -->
+<!-- Mais informações: https://dev.twitter.com/cards/getting-started -->
 <!-- Validate: https://dev.twitter.com/docs/cards/validation/validator -->
 ```
 
@@ -351,7 +351,7 @@ Below are the link relations which are not recommended for use:
 <!-- Startup Image -->
 <link rel="apple-touch-startup-image" href="path/to/startup.png">
 
-<!-- More info: https://developer.apple.com/safari/library/documentation/appleapplications/reference/safarihtmlref/articles/metatags.html -->
+<!-- Mais informações: https://developer.apple.com/safari/library/documentation/appleapplications/reference/safarihtmlref/articles/metatags.html -->
 ```
 
 - [Apple Meta Tags](https://developer.apple.com/library/safari/documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html)
@@ -370,7 +370,7 @@ Below are the link relations which are not recommended for use:
 
 <!-- Add to homescreen -->
 <meta name="mobile-web-app-capable" content="yes">
-<!-- More info: https://developer.chrome.com/multidevice/android/installtohomescreen -->
+<!-- Mais informações: https://developer.chrome.com/multidevice/android/installtohomescreen -->
 ```
 
 ### Google Chrome
@@ -465,11 +465,11 @@ Below are the link relations which are not recommended for use:
 ### QQ Mobile Browser
 
 ``` html
-<!-- Locks the screen into the specified orientation -->
+<!-- Bloqueia a tela para a orientação especificada -->
 <meta name="x5-orientation" content="landscape/portrait">
-<!-- Display this page in fullscreen -->
+<!-- Mostrar esta página em tela cheia -->
 <meta name="x5-fullscreen" content="true">
-<!-- Page will be displayed in "application mode"(fullscreen,etc.) -->
+<!-- A página será exibida em "application mode"(fullscreen,etc.) -->
 <meta name="x5-page-mode" content="app">
 ```
 
@@ -486,7 +486,7 @@ Below are the link relations which are not recommended for use:
 <meta property="al:android:package" content="org.applinks">
 <!-- Web Fallback -->
 <meta property="al:web:url" content="http://applinks.org/documentation">
-<!-- More info: http://applinks.org/documentation/ -->
+<!-- Mais informações: http://applinks.org/documentation/ -->
 ```
 
 - [App Links Docs](http://applinks.org/documentation/)
