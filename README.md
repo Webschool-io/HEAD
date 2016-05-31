@@ -41,7 +41,7 @@ Abaixo estão as *tags* essenciais para, sites minimalistas básicos:
 <meta charset="utf-8">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Page Title</title>
+<title>Título da Página</title>
 ```
 
 ## Elementos
@@ -88,6 +88,7 @@ Abaixo estão as *tags* essenciais para, sites minimalistas básicos:
 <!-- Mesmo esquema acima porém exclusivamente para o Google -->
 <meta name="googlebot" content="index,follow">
 
+<!-- Tells the Google search engine to not show the sitelinks search box -->
 <!-- Tells the Google search engine to not show the sitelinks search box -->
 <meta name="google" content="nositelinkssearchbox">
 
