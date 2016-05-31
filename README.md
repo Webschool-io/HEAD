@@ -3,8 +3,8 @@
 Uma lista de tudo que poderia ir na `<head>` do seu documento
 
 **Índice:**
-- [Mínimo recomendado](#recommended-minimum)
-- [Elementos](#elements)
+- [Mínimo Recomendado](#Mínimo-Recomendado)
+- [Elementos](#Elementos)
 - [Meta Elementos](#meta-elements)
   - [Meta Elementos: Não Recomendado](#meta-elements-not-recommended)
 - [Link Elementos](#link-elements)
@@ -33,7 +33,7 @@ Uma lista de tudo que poderia ir na `<head>` do seu documento
 - [Projetos Relacionados](#related-projects)
 - [Contribuindo](#contributing)
 
-## Recommended Minimum
+## Mínimo Recomendado
 
 Below are the essential tags for basic, minimalist websites:
 
@@ -44,7 +44,7 @@ Below are the essential tags for basic, minimalist websites:
 <title>Page Title</title>
 ```
 
-## Elements
+## Elementos
 
 ``` html
 <!-- Document Title -->
