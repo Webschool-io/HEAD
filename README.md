@@ -1,14 +1,14 @@
 # HEAD
 
-A list of everything that could go in the `<head>` of your document
+Uma lista de tudo que poderia ir na `<head>` do seu documento
 
-**Table of Contents:**
-- [Recommended Minimum](#recommended-minimum)
-- [Elements](#elements)
-- [Meta Elements](#meta-elements)
-  - [Meta Elements: Not Recommended](#meta-elements-not-recommended)
-- [Link Elements](#link-elements)
-  - [Link Elements: Not Recommended](#link-elements-not-recommended)
+**Índice:**
+- [Mínimo recomendado](#recommended-minimum)
+- [Elementos](#elements)
+- [Meta Elementos](#meta-elements)
+  - [Meta Elementos: Não Recomendado](#meta-elements-not-recommended)
+- [Link Elementos](#link-elements)
+  - [Link Elementos: Não Recomendado](#link-elements-not-recommended)
   - [Favicons](#favicons)
 - [Social](#social)
   - [Facebook / Open Graph](#facebook--open-graph)
@@ -16,22 +16,22 @@ A list of everything that could go in the `<head>` of your document
   - [Twitter](#twitter)
   - [Google+ / Schema.org](#google--schemaorg)
   - [OEmbed](#oembed)
-- [Browser / Platform](#browser--platform)
+- [Navegador / Plataforma](#browser--platform)
   - [Apple iOS](#apple-ios)
   - [Apple Safari](#apple-safari)
   - [Google Android](#google-android)
   - [Google Chrome](#google-chrome)
   - [Microsoft Internet Explorer](#microsoft-internet-explorer)
-  - [Microsoft Internet Explorer: Legacy, Do Not Use!](#microsoft-internet-explorer-legacy-do-not-use)
+  - [Microsoft Internet Explorer: Legacy, Não Use!](#microsoft-internet-explorer-legacy-do-not-use)
   - [360 Browser](#360-browser)
   - [UC Mobile Browser](#uc-mobile-browser)
   - [QQ Mobile Browser](#qq-mobile-browser)
 - [App Links](#app-links)
-- [Notes](#notes)
+- [Notas](#notes)
   - [Performance](#performance)
-- [Other Resources](#other-resources)
-- [Related Projects](#related-projects)
-- [Contributing](#contributing)
+- [Outros Recursos](#other-resources)
+- [Projetos Relacionados](#related-projects)
+- [Contribuindo](#contributing)
 
 ## Recommended Minimum
 
