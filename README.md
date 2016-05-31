@@ -3,12 +3,12 @@
 Uma lista de tudo que poderia ir na `<head>` do seu documento
 
 **Índice:**
-- [Mínimo Recomendado](#Mínimo-Recomendado)
-- [Elementos](#Elementos)
-- [Meta Elementos](#meta-elements)
-  - [Meta Elementos: Não Recomendado](#meta-elements-not-recommended)
-- [Link Elementos](#link-elements)
-  - [Link Elementos: Não Recomendado](#link-elements-not-recommended)
+- [Mínimo Recomendado](#mínimo-recomendado)
+- [Elementos](#elementos)
+- [Elementos Meta](#meta-elementos)
+  - [Elementos Meta: Não Recomendado](#meta-elements-not-recommended)
+- [Elementos Link](#link-elements)
+  - [Elementos Link: Não Recomendado](#link-elements-not-recommended)
   - [Favicons](#favicons)
 - [Social](#social)
   - [Facebook / Open Graph](#facebook--open-graph)
@@ -65,7 +65,7 @@ Below are the essential tags for basic, minimalist websites:
 <script src="script.js"></script>
 ```
 
-## Meta Elements
+## Elementos Meta
 
 ``` html
 <meta charset="utf-8">
@@ -149,7 +149,7 @@ Below are the essential tags for basic, minimalist websites:
 - [ICBM on Wikipedia](https://en.wikipedia.org/wiki/ICBM_address#Modern_use)
 - [Geotagging on Wikipedia](https://en.wikipedia.org/wiki/Geotagging#HTML_pages)
 
-### Meta Elements: Not Recommended
+### Elementos Meta: Não Recomendado
 Below are the meta attributes which are not recommended for use:
 
 ```html
@@ -183,7 +183,7 @@ Below are the meta attributes which are not recommended for use:
 <meta http-equiv="Cache-Control" content="no-cache">
 ```
 
-## Link Elements
+## Elementos Link
 
 ``` html
 <link rel="copyright" href="copyright.html">
@@ -224,7 +224,7 @@ Below are the meta attributes which are not recommended for use:
 <!-- More info: https://css-tricks.com/prefetching-preloading-prebrowsing/ -->
 ```
 
-### Link Elements: Not Recommended
+### Elementos Link: Não Recomendado
 Below are the link relations which are not recommended for use:
 
 ```html
@@ -324,7 +324,7 @@ Below are the link relations which are not recommended for use:
 
 - [oEmbed format](http://oembed.com/)
 
-## Browser / Platform
+## Navegador / Plataforma
 
 
 ### Apple iOS
@@ -490,7 +490,7 @@ Below are the link relations which are not recommended for use:
 
 - [App Links Docs](http://applinks.org/documentation/)
 
-## Notes
+## Notas
 
 ### Performance
 Moving the `href` attribute to the beginning of an element improves compression when GZIP is enabled, because the `href` attribute is used in `a`, `base` and `link` tags.
@@ -500,16 +500,16 @@ Example:
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
 ```
 
-## Other Resources
+## Outros Recursos
 
 - [HTML5 Boilerplate Docs: The HTML](https://github.com/h5bp/html5-boilerplate/blob/master/dist/doc/html.md)
 - [HTML5 Boilerplate Docs: Extend and customize](https://github.com/h5bp/html5-boilerplate/blob/master/dist/doc/extend.md)
 
-## Related Projects
+## Projetos Relacionados
 
 - [head-it](https://github.com/hemanth/head-it) a simple interface to use `head`.
 
-## Contributing
+## Contribuindo
 
 Open an issue or a pull request to suggest changes or additions.
 
@@ -519,11 +519,15 @@ Please follow these steps for pull requests:
 - Don't include a trailing slash in self-closing elements — the HTML5 spec says they're optional
 - Consider including a link to documentation that supports your change
 
-## Author
+## Autor
 
 **[Josh Buchea](http://joshbuchea.com/)**
 
-## License
+### Tradutor
+
+**[Suissa](https://github.com/suissa)**
+
+## Licença
 
 [CC0 License](LICENSE)
 
