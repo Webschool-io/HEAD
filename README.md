@@ -216,7 +216,7 @@ Below are the meta attributes which are not recommended for use:
 <link rel="author" href="humans.txt">
 <link rel="import" href="component.html">
 
-<!-- Prefetching, preloading, prebrowsing -->
+<!-- Prefetching, pré-carregamento, pré-navegação -->
 <link rel="dns-prefetch" href="//example.com/">
 <link rel="preconnect" href="https://www.example.com/">
 <link rel="prefetch" href="https://www.example.com/">
@@ -236,10 +236,10 @@ Below are the link relations which are not recommended for use:
 ### Favicons
 
 ``` html
-<!-- For IE 10 and below -->
-<!-- No link, just place a file called favicon.ico in the root directory -->
+<!-- Para o IE 10 e abaixo -->
+<!-- Sem link, basta colocar um arquivo chamado favicon.ico no diretório raiz -->
 
-<!-- For IE 11, Chrome, Firefox, Safari, Opera -->
+<!-- Para IE11, Chrome, Firefox, Safari, Opera -->
 <link rel="icon" href="path/to/favicon-16.png" sizes="16x16" type="image/png">
 <link rel="icon" href="path/to/favicon-32.png" sizes="32x32" type="image/png">
 <link rel="icon" href="path/to/favicon-48.png" sizes="48x48" type="image/png">
@@ -248,7 +248,7 @@ Below are the link relations which are not recommended for use:
 <!-- Mais informações: https://bitsofco.de/all-about-favicons-and-touch-icons/ -->
 ```
 
-- [All About Favicons (And Touch Icons)](https://bitsofco.de/all-about-favicons-and-touch-icons/)
+- [Tudo sobre Favicons (E Ícones de toque)](https://bitsofco.de/all-about-favicons-and-touch-icons/)
 
 ## Social
 
@@ -268,8 +268,8 @@ Below are the link relations which are not recommended for use:
 <!-- Open Graph: http://ogp.me/ -->
 ```
 
-- [Facebook Open Graph Markup](https://developers.facebook.com/docs/sharing/webmasters#markup)
-- [Open Graph protocol](http://ogp.me/)
+- [Facebook Open Graph - Marcação](https://developers.facebook.com/docs/sharing/webmasters#markup)
+- [Open Graph - Protocolo](http://ogp.me/)
 
 ### Facebook / Instant Articles
 
@@ -277,15 +277,15 @@ Below are the link relations which are not recommended for use:
 <meta charset="utf-8">
 <meta property="op:markup_version" content="v1.0">
 
-<!-- The URL of the web version of your article -->
+<!-- A URL da versão web do seu artigo -->
 <link rel="canonical" href="http://example.com/article.html">
 
-<!-- The style to be used for this article -->
+<!-- O estilo que deve ser utilizado para este artigo -->
 <meta property="fb:article_style" content="myarticlestyle">
 ```
 
-- [Facebook Instant Articles: Creating Articles](https://developers.facebook.com/docs/instant-articles/guides/articlecreate)
-- [Instant Articles: Format Reference](https://developers.facebook.com/docs/instant-articles/reference)
+- [Facebook Instant Articles: Criando de artigos](https://developers.facebook.com/docs/instant-articles/guides/articlecreate)
+- [Instant Articles: Reference de Formatação](https://developers.facebook.com/docs/instant-articles/reference)
 
 ### Twitter
 
@@ -298,11 +298,11 @@ Below are the link relations which are not recommended for use:
 <meta name="twitter:description" content="Content description less than 200 characters">
 <meta name="twitter:image" content="https://example.com/image.jpg">
 <!-- Mais informações: https://dev.twitter.com/cards/getting-started -->
-<!-- Validate: https://dev.twitter.com/docs/cards/validation/validator -->
+<!-- Valide: https://dev.twitter.com/docs/cards/validation/validator -->
 ```
 
-- [Twitter Cards: Getting Started Guide](https://dev.twitter.com/cards/getting-started)
-- [Twitter Card Validator](https://dev.twitter.com/docs/cards/validation/validator)
+- [Twitter Cards: Guia de Introdução](https://dev.twitter.com/cards/getting-started)
+- [Twitter Card: Validador](https://dev.twitter.com/docs/cards/validation/validator)
 
 ### Google+ / Schema.org
 
@@ -335,21 +335,22 @@ Below are the link relations which are not recommended for use:
 <!-- Smart App Banner -->
 <meta name="apple-itunes-app" content="app-id=APP_ID,affiliate-data=AFFILIATE_ID,app-argument=SOME_TEXT">
 
-<!-- Disable automatic detection and formatting of possible phone numbers -->
+<!-- Desativar a detecção automática e formatação de possíveis números de telefone -->
 <meta name="format-detection" content="telephone=no">
 
-<!-- Add to Home Screen -->
+<!-- Adicionar na Tela Inicial  -->
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
 <meta name="apple-mobile-web-app-title" content="App Title">
 
-<!-- Touch Icons -->
+<!-- Ícones Touch -->
 <link rel="apple-touch-icon" href="path/to/apple-touch-icon.png">
 <link rel="apple-touch-icon-precomposed" href="path/to/apple-touch-icon-precomposed.png">
-<!-- In most cases, one 180×180px touch icon in the head is enough -->
+<!-- Na maioria dos casos, um ícone touch de 180×180px é suficiente -->
 <!-- If you use art-direction and/or want to have different content for each device, you can add more touch icons -->
+<!-- Se você quer ter um conteúdo diferente para cada dispositivo, você pode adicionar mais ícones touch -->
 
-<!-- Startup Image -->
+<!-- Imagem Inicial -->
 <link rel="apple-touch-startup-image" href="path/to/startup.png">
 
 <!-- Mais informações: https://developer.apple.com/safari/library/documentation/appleapplications/reference/safarihtmlref/articles/metatags.html -->
@@ -360,7 +361,7 @@ Below are the link relations which are not recommended for use:
 ### Apple Safari
 
 ```html
-<!-- Pinned Site -->
+<!-- Site Fixado -->
 <link rel="mask-icon" href="path/to/icon.svg" color="red">
 ```
 
@@ -369,7 +370,7 @@ Below are the link relations which are not recommended for use:
 ``` html
 <meta name="theme-color" content="#E64545">
 
-<!-- Add to homescreen -->
+<!-- Adicionar à tela inicial -->
 <meta name="mobile-web-app-capable" content="yes">
 <!-- Mais informações: https://developer.chrome.com/multidevice/android/installtohomescreen -->
 ```
@@ -379,7 +380,7 @@ Below are the link relations which are not recommended for use:
 ``` html
 <link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/APP_ID">
 
-<!-- Disable translation prompt -->
+<!-- Desabilitar prompt de tradução -->
 <meta name="google" value="notranslate">
 ```
 
@@ -390,10 +391,10 @@ Below are the link relations which are not recommended for use:
 <meta http-equiv="cleartype" content="on">
 <meta name="skype_toolbar" content="skype_toolbar_parser_compatible">
 
-<!-- Disable link highlighting on IE 10 on Windows Phone (https://blogs.windows.com/buildingapps/2012/11/15/adapting-your-webkit-optimized-site-for-internet-explorer-10/) -->
+<!-- Desativar link destacado no IE 10 do Windows Phone(https://blogs.windows.com/buildingapps/2012/11/15/adapting-your-webkit-optimized-site-for-internet-explorer-10/) -->
 <meta name="msapplication-tap-highlight" content="no">
 
-<!-- Pinned sites (https://msdn.microsoft.com/en-us/library/dn255024(v=vs.85).aspx) -->
+<!-- Sites fixados (https://msdn.microsoft.com/en-us/library/dn255024(v=vs.85).aspx) -->
 <meta name="application-name" content="Contoso Pinned Site Caption">
 <meta name="msapplication-tooltip" content="Example Tooltip Text">
 <meta name="msapplication-starturl" content="/">
