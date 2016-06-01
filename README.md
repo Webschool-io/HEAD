@@ -88,63 +88,62 @@ Abaixo estão as *tags* essenciais para, sites minimalistas básicos:
 <!-- Mesmo esquema acima porém exclusivamente para o Google -->
 <meta name="googlebot" content="index,follow">
 
-<!-- Tells the Google search engine to not show the sitelinks search box -->
-<!-- Tells the Google search engine to not show the sitelinks search box -->
+<!-- Diz o motor de busca Google não mostrar a caixa de pesquisa de sitelinks  -->
 <meta name="google" content="nositelinkssearchbox">
 
-<!-- Verifies ownership of the Search Console for Google -->
+<!-- Verifica a propriedade do Console de Pesquisa para o Google -->
 <meta name="google-site-verification" content="verification_token">
 
-<!-- Used to name software used to build the website (i.e. - Wordpress, Dreamweaver) -->
+<!-- Usado para nomear o programa usado para construir o site (I.S. - Wordpress, Dreamweaver) -->
 <meta name="generator" content="program">
 
-<!-- Very short sentence describing the purpose of the website -->
+<!-- Frase muito curta descrevendo o propósito do site -->
 <meta name="abstract" content="">
 
-<!-- Describes the topic of the website -->
+<!-- Descreve o tema do website -->
 <meta name="topic" content="">
 
-<!-- Brief summary of the company or purpose of the website -->
+<!-- Breve resumo da empresa ou do propósito do site -->
 <meta name="summary" content="">
 
-<!-- A deprecated tag that does the same as the keywords meta tag -->
+<!-- A tag obsoleta que faz o mesmo que a tag keywords -->
 <meta name="classification" content="business">
 
-<!-- Full domain name or web address -->
+<!-- Domínio completo ou o endereço web -->
 <meta name="url" content="https://example.com/">
 
-<!-- Does the same as URL, older and not supported -->
+<!-- Faz o mesmo que URL, mais velho e não é suportado -->
 <meta name="identifier-URL" content="https://example.com/">
 
 
 <meta name="directory" content="submission">
 
-<!-- Does the same function as the keywords tag -->
+<!-- Faz o mesmo que a tag keywords -->
 <meta name="category" content="">
 
-<!-- Makes sure your website shows up in all countries and languages -->
+<!-- Garante que o seu site aparece em todos os países e idiomas -->
 <meta name="coverage" content="Worldwide">
 
-<!-- Does the same as the coverage tag -->
+<!-- Faz o mesmo que a tag coverage -->
 <meta name="distribution" content="Global">
 
-<!-- Gives a general age rating based on sites content -->
+<!-- Dá uma classificação de idade geral com base em sites de conteúdo -->
 <meta name="rating" content="General">
 
-<!-- Allows control over how referrer information is passed -->
+<!-- Permite o controle sobre como a informação de referência é passada -->
 <meta name="referrer" content="never">
 
-<!-- Allows control over where resources are loaded from -->
+<!-- Permite o controle sobre de onde os recursos são carregados -->
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'">
 
-<!-- Disable automatic detection and formatting of possible phone numbers -->
+<!-- Desativar a detecção automática e formatação de possíveis números de telefone -->
 <meta name="format-detection" content="telephone=no">
 
 <!-- Geo tags -->
 <meta name="ICBM" content="latitude, longitude" />
 <meta name="geo.position" content="latitude;longitude" />
-<meta name="geo.region" content="country[-state]" /><!-- Country code (ISO 3166-1): mandatory, state code (ISO 3166-2): optional; eg. content="US" / content="US-NY" -->
-<meta name="geo.placename" content="city/town" /><!-- eg. content="New York City" -->
+<meta name="geo.region" content="country[-state]" /><!-- Código do país (ISO 3166-1): obrigatório, código do estado (ISO 3166-2): opcional; por exemplo: content="US" / content="US-NY" -->
+<meta name="geo.placename" content="city/town" /><!-- por exemplo: content= "New York City" -->
 ```
 
 - [ICBM on Wikipedia](https://en.wikipedia.org/wiki/ICBM_address#Modern_use)
