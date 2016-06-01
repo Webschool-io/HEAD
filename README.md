@@ -153,31 +153,33 @@ Abaixo estão as *tags* essenciais para, sites minimalistas básicos:
 Below are the meta attributes which are not recommended for use:
 
 ```html
-<!-- Used to declare the document language, but not well supported. Better to use <html lang=""> -->
+<!-- Usado para declarar o idioma do documento, mas não é bem suportado. Melhor usar <html lang = ""> -->
 <meta name="language" content="en">
 
-<!-- Google disregards & Bing considers it an indicator of spam -->
+<!-- Google ignora & Bing considera um indicador do spam -->
 <meta name="keywords" content="your,keywords,here,comma,separated,no,spaces">
 
-<!-- No evidence of current use in any search engines -->
+<!-- Não há evidência de uso corrente em todos os motores de busca -->
 <meta name="revised" content="Sunday, July 18th, 2010, 5:15 pm">
 
-<!-- Provides an easy way for spam bots to harvest email addresses -->
+<!-- Fornece uma maneira fácil para que robôs de spam colham endereços de e-mail -->
 <meta name="reply-to" content="email@example.com">
 
-<!-- Better to use <link rel="author"> or humans.txt file -->
+<!-- Melhor usar <link rel = "autor"> ou arquivo humans.txt -->
 <meta name="author" content="name, email@example.com">
 <meta name="designer" content="">
 <meta name="owner" content="">
 
-<!-- Tells search bots to revisit the page after a period. This is not supported because most Search Engines now use random intervals for re-crawling a webpage -->
+<!-- Diz para robôs de pesquisa para voltarem na página depois de um período. Isto não é suportado porque a maioria dos motores de busca agora usar intervalos aleatórios para re-rastreamento de uma página web -->
 <meta name="revisit-after" content="7 days">
 
 <!-- Google strongly advises not to use this. Better to set up server-side (e.g. Apache, nginx) redirects instead -->
+<!-- Google aconselha a não usar isso. Melhor configurar no lado do servidor (por exemplo, Apache, nginx) redirecionamento como alternativa -->
 <meta http-equiv="refresh" content="300;url=https://example.com/">
 
-<!-- Cache Control -->
+<!-- Controle de Cache  -->
 <!-- Better to configure cache control server side -->
+<!-- Melhor configurar no lado do servidor o controle do cache -->
 <meta http-equiv="Expires" content="0">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Cache-Control" content="no-cache">
