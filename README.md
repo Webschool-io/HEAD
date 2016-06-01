@@ -444,19 +444,19 @@ Below are the link relations which are not recommended for use:
 ### UC Mobile Browser
 
 ``` html
-<!-- Locks the screen into the specified orientation -->
+<!-- Bloqueia a tela para a orientação especificada -->
 <meta name="screen-orientation" content="landscape/portrait">
-<!-- Display this page in fullscreen -->
+<!--Mostrar esta página em tela cheia -->
 <meta name="full-screen" content="yes">
-<!-- UC browser will display images even if in "text mode" -->
+<!-- Navegador UC irá exibir imagens mesmo em "modo texto" -->
 <meta name="imagemode" content="force">
-<!-- Page will be displayed in "application mode"(fullscreen,forbiding gesture, etc.) -->
+<!-- A página será exibida no "modo de aplicação" (tela cheia, gesto proibido, etc.) -->
 <meta name="browsermode" content="application">
-<!-- Disabled the UC browser's "night mode" in this page -->
+<!-- Desativada navegador UC "modo noturno" nesta página -->
 <meta name="nightmode" content="disable">
-<!-- Simplify the page to reduce data transfer -->
+<!-- Simplificar a página para reduzir a transferência de dados -->
 <meta name="layoutmode" content="fitscreen">
-<!-- Disable the UC browser's feature of "scaling font up when there are many words in this page" -->
+<!-- Desativar o recurso do navegador da UC "dimensionamento de fontes para cima quando há muitas palavras esta página" -->
 <meta name="wap-font-scale" content="no">
 ```
 
