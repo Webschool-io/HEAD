@@ -249,7 +249,7 @@ Below are the link relations which are not recommended for use:
 <!-- Mais informações: https://bitsofco.de/all-about-favicons-and-touch-icons/ -->
 ```
 
-- [Tudo sobre Favicons (E Ícones de toque)](https://bitsofco.de/all-about-favicons-and-touch-icons/)
+- [Tudo sobre Favicons (E ícones *touch*)](https://bitsofco.de/all-about-favicons-and-touch-icons/)
 
 ## Social
 
@@ -348,7 +348,6 @@ Below are the link relations which are not recommended for use:
 <link rel="apple-touch-icon" href="path/to/apple-touch-icon.png">
 <link rel="apple-touch-icon-precomposed" href="path/to/apple-touch-icon-precomposed.png">
 <!-- Na maioria dos casos, um ícone touch de 180×180px é suficiente -->
-<!-- If you use art-direction and/or want to have different content for each device, you can add more touch icons -->
 <!-- Se você quer ter um conteúdo diferente para cada dispositivo, você pode adicionar mais ícones touch -->
 
 <!-- Imagem Inicial -->
