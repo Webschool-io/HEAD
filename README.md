@@ -420,16 +420,16 @@ Below are the link relations which are not recommended for use:
 ### Microsoft Internet Explorer: Legacy, Do Not Use!
 
 ``` html
-<!-- Disable the image toolbar when you mouse over images in IE 6 (https://msdn.microsoft.com/en-us/library/ms532986(v=vs.85).aspx) -->
+<!-- Desativar a barra de ferramentas de imagem quando você passa o mouse sobre as imagens em IE 6 (https://msdn.microsoft.com/en-us/library/ms532986(v=vs.85).aspx) -->
 <meta http-equiv="imagetoolbar" content="no">
 
-<!-- Disable Windows theming to form inputs/buttons (https://support.microsoft.com/en-us/kb/322240) -->
+<!-- Desativar o Windows theming para formar entradas / botões (https://support.microsoft.com/en-us/kb/322240) -->
 <meta name="MSThemeCompatible" content="no">
 
-<!-- Disable a feature that only appeared on IE 6 beta (https://stackoverflow.com/q/2167301) -->
+<!-- Desativar um recurso que só apareceu no IE 6 beta (https://stackoverflow.com/q/2167301) -->
 <meta name="MSSmartTagsPreventParsing" content="true">
 
-<!-- Interpage Transitions (https://msdn.microsoft.com/en-us/library/ms532847(v=vs.85).aspx) -->
+<!-- Transições Interpage  (https://msdn.microsoft.com/en-us/library/ms532847(v=vs.85).aspx) -->
 <meta http-equiv="Page-Enter" content="revealtrans(duration=2,transition=2)">
 <meta http-equiv="Page-Exit" content="revealtrans(duration=3,transition=12)">
 <meta http-equiv="Site-Enter" content="revealtrans(duration=2,transition=2)">
@@ -439,7 +439,7 @@ Below are the link relations which are not recommended for use:
 ### 360 Browser
 
 ``` html
-<!-- select rendering engine in order -->
+<!-- selecione motor de renderização, na ordem -->
 <meta name="renderer" content="webkit|ie-comp|ie-stand">
 ```
 
