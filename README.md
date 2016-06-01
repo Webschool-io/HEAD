@@ -150,7 +150,8 @@ Abaixo estão as *tags* essenciais para, sites minimalistas básicos:
 - [Geotagging on Wikipedia](https://en.wikipedia.org/wiki/Geotagging#HTML_pages)
 
 ### Elementos Meta: Não Recomendado
-Below are the meta attributes which are not recommended for use:
+
+A seguir estão os atributos *meta* que não são recomendados para uso:
 
 ```html
 <!-- Usado para declarar o idioma do documento, mas não é bem suportado. Melhor usar <html lang = ""> -->
