@@ -228,7 +228,7 @@ A seguir estão os atributos *meta* que não são recomendados para uso:
 ```
 
 ### Elementos Link: Não Recomendado
-Below are the link relations which are not recommended for use:
+A seguir há uma relação dos elementos link que não são recomendados para uso:
 
 ```html
 <link rel="shortcut icon" href="path/to/favicon.ico">
