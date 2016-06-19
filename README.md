@@ -8,7 +8,7 @@ Uma lista de tudo que poderia ir na `<head>` do seu documento
 - [Elementos Meta](#elementos-meta)
   - [Elementos Meta: Não Recomendado](#elementos-meta-não-recomendado)
 - [Elementos Link](#elementos-link)
-  - [Elementos Link: Não Recomendado](#lelementos-link-não-recomendado)
+  - [Elementos Link: Não Recomendado](#elementos-link-não-recomendado)
   - [Favicons](#favicons)
 - [Social](#social)
   - [Facebook / Open Graph](#facebook--open-graph)
